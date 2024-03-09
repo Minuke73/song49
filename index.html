@@ -11,7 +11,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>4학년_4_68p_겨울이오면_20240309</title>
+<title>4학년_4_68p_겨울이오면_20240310</title>
 <!-- write your code here -->
 <style>
   #animation_container, #_preload_div_ {
@@ -456,6 +456,27 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-7.8,-3.8,143,54.599999999999994);
+(lib.play_bg = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// 레이어_2
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#444444").s().p("AizC0QhKhLAAhpQAAhpBKhKQBLhLBoABQBqgBBKBLQBKBKAABpQAABphKBLQhKBKhqAAQhoAAhLhKgAg+hmQgQAJAAATIAACWQAAASAQAJQAHAEAJAAQAJAAAHgEICChMQAQgIAAgTQAAgSgQgJIiChLQgIgFgIAAQgIAAgIAFg");
+	this.shape.setTransform(48.325,48.75);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AhRBnQgPgJAAgSIAAiWQAAgTAQgJQAQgKAPAKICCBMQAQAJAAARQAAATgQAJIiCBLQgHAFgJAAQgIAAgIgFg");
+	this.shape_1.setTransform(50.175,48.725);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this._renderFirstFrame();
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(22.9,23.3,50.9,50.900000000000006);
 (lib.play = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -622,7 +643,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-545,39.9,70,70);
 // stage content:
-(lib._4학년_4_68p_겨울이오면_20240309 = function(mode,startPosition,loop,reversed) {
+(lib._4학년_4_68p_겨울이오면_20240310 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -646,34 +667,44 @@ if (reversed == null) { reversed = false; }
 		/*메뉴 네비게이션*/
 		_this.listen_btn.on('click', function () {
 			_this.gotoAndStop('노래듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.expert_btn.on('click', function () {
 			_this.gotoAndStop('전문가창');
+			_this.play_btn.visible = true;
 		});
 		_this.listen2_btn.on('click', function () {
 			_this.gotoAndStop('반주듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.singAlong_btn.on('click', function () {
 			_this.gotoAndStop('따라부르');
+			_this.play_btn.visible = true;
 		});
 		/*플레이컨트롤*/
 		_this.play_btn.on('click', function () {
 			_this.play();
+			_this.play_btn.visible = false;
 		});
 		_this.pause_btn.on('click', function () {
 			_this.stop();
+			_this.play_btn.visible = true;
 		});
 		_this.stop1_btn.on('click', function () {
 			_this.gotoAndStop('노래듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.stop2_btn.on('click', function () {
 			_this.gotoAndStop('전문가창');
+			_this.play_btn.visible = true;
 		});
 		_this.stop4_btn.on('click', function () {
 			_this.gotoAndStop('반주듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.stop3_btn.on('click', function(){
 			_this.gotoAndStop('따라부르');
+			_this.play_btn.visible = true;
 		});
 	}
 	this.frame_2071 = function() {
@@ -7889,6 +7920,8 @@ if (reversed == null) { reversed = false; }
 	this.shape_979.setTransform(169.0724,471.9304,2.4024,2.4026);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_864},{t:this.shape_863},{t:this.shape_862},{t:this.shape_861},{t:this.shape_860},{t:this.shape_859},{t:this.shape_858},{t:this.shape_857},{t:this.shape_856},{t:this.shape_855},{t:this.shape_854},{t:this.shape_853},{t:this.shape_852},{t:this.shape_851},{t:this.shape_850},{t:this.shape_849},{t:this.shape_848},{t:this.shape_847},{t:this.shape_846},{t:this.shape_845},{t:this.shape_844},{t:this.shape_843},{t:this.shape_842},{t:this.shape_841}]}).to({state:[{t:this.shape_887},{t:this.shape_886},{t:this.shape_885},{t:this.shape_884},{t:this.shape_883},{t:this.shape_882},{t:this.shape_881},{t:this.shape_880},{t:this.shape_879},{t:this.shape_878},{t:this.shape_877},{t:this.shape_876},{t:this.shape_875},{t:this.shape_874},{t:this.shape_873},{t:this.shape_872},{t:this.shape_871},{t:this.shape_870},{t:this.shape_869},{t:this.shape_868},{t:this.shape_867},{t:this.shape_866},{t:this.shape_865,p:{y:468.9691,x:1121.9753}}]},605).to({state:[{t:this.shape_911},{t:this.shape_910},{t:this.shape_909},{t:this.shape_908},{t:this.shape_907},{t:this.shape_906},{t:this.shape_905},{t:this.shape_904},{t:this.shape_903},{t:this.shape_902},{t:this.shape_901},{t:this.shape_900},{t:this.shape_899},{t:this.shape_898},{t:this.shape_897},{t:this.shape_896},{t:this.shape_895},{t:this.shape_894},{t:this.shape_893},{t:this.shape_892},{t:this.shape_891},{t:this.shape_890},{t:this.shape_889},{t:this.shape_888}]},288).to({state:[{t:this.shape_933},{t:this.shape_932},{t:this.shape_931},{t:this.shape_930},{t:this.shape_929},{t:this.shape_928},{t:this.shape_927},{t:this.shape_926},{t:this.shape_925},{t:this.shape_924},{t:this.shape_923},{t:this.shape_922},{t:this.shape_921},{t:this.shape_920},{t:this.shape_919},{t:this.shape_918},{t:this.shape_917},{t:this.shape_916},{t:this.shape_915},{t:this.shape_914},{t:this.shape_913},{t:this.shape_912},{t:this.shape_865,p:{y:470.929,x:1121.9753}}]},288).to({state:[{t:this.shape_956},{t:this.shape_955},{t:this.shape_954},{t:this.shape_953},{t:this.shape_865,p:{y:471.0169,x:349.9527}},{t:this.shape_952},{t:this.shape_951},{t:this.shape_950},{t:this.shape_949},{t:this.shape_948},{t:this.shape_947},{t:this.shape_946},{t:this.shape_945},{t:this.shape_944},{t:this.shape_943},{t:this.shape_942},{t:this.shape_941},{t:this.shape_940},{t:this.shape_939},{t:this.shape_938},{t:this.shape_937},{t:this.shape_936},{t:this.shape_935},{t:this.shape_934}]},287).to({state:[{t:this.shape_979},{t:this.shape_978},{t:this.shape_977},{t:this.shape_976},{t:this.shape_975},{t:this.shape_974},{t:this.shape_973},{t:this.shape_972},{t:this.shape_971},{t:this.shape_970},{t:this.shape_969},{t:this.shape_968},{t:this.shape_967},{t:this.shape_966},{t:this.shape_965},{t:this.shape_964},{t:this.shape_963},{t:this.shape_962},{t:this.shape_961},{t:this.shape_960},{t:this.shape_959},{t:this.shape_958},{t:this.shape_957}]},289).to({state:[]},315).to({state:[{t:this.shape_864},{t:this.shape_863},{t:this.shape_862},{t:this.shape_861},{t:this.shape_860},{t:this.shape_859},{t:this.shape_858},{t:this.shape_857},{t:this.shape_856},{t:this.shape_855},{t:this.shape_854},{t:this.shape_853},{t:this.shape_852},{t:this.shape_851},{t:this.shape_850},{t:this.shape_849},{t:this.shape_848},{t:this.shape_847},{t:this.shape_846},{t:this.shape_845},{t:this.shape_844},{t:this.shape_843},{t:this.shape_842},{t:this.shape_841}]},40).to({state:[{t:this.shape_887},{t:this.shape_886},{t:this.shape_885},{t:this.shape_884},{t:this.shape_883},{t:this.shape_882},{t:this.shape_881},{t:this.shape_880},{t:this.shape_879},{t:this.shape_878},{t:this.shape_877},{t:this.shape_876},{t:this.shape_875},{t:this.shape_874},{t:this.shape_873},{t:this.shape_872},{t:this.shape_871},{t:this.shape_870},{t:this.shape_869},{t:this.shape_868},{t:this.shape_867},{t:this.shape_866},{t:this.shape_865,p:{y:468.9691,x:1121.9753}}]},880).to({state:[{t:this.shape_911},{t:this.shape_910},{t:this.shape_909},{t:this.shape_908},{t:this.shape_907},{t:this.shape_906},{t:this.shape_905},{t:this.shape_904},{t:this.shape_903},{t:this.shape_902},{t:this.shape_901},{t:this.shape_900},{t:this.shape_899},{t:this.shape_898},{t:this.shape_897},{t:this.shape_896},{t:this.shape_895},{t:this.shape_894},{t:this.shape_893},{t:this.shape_892},{t:this.shape_891},{t:this.shape_890},{t:this.shape_889},{t:this.shape_888}]},576).to({state:[{t:this.shape_933},{t:this.shape_932},{t:this.shape_931},{t:this.shape_930},{t:this.shape_929},{t:this.shape_928},{t:this.shape_927},{t:this.shape_926},{t:this.shape_925},{t:this.shape_924},{t:this.shape_923},{t:this.shape_922},{t:this.shape_921},{t:this.shape_920},{t:this.shape_919},{t:this.shape_918},{t:this.shape_917},{t:this.shape_916},{t:this.shape_915},{t:this.shape_914},{t:this.shape_913},{t:this.shape_912},{t:this.shape_865,p:{y:470.929,x:1121.9753}}]},574).to({state:[{t:this.shape_956},{t:this.shape_955},{t:this.shape_954},{t:this.shape_953},{t:this.shape_865,p:{y:471.0169,x:349.9527}},{t:this.shape_952},{t:this.shape_951},{t:this.shape_950},{t:this.shape_949},{t:this.shape_948},{t:this.shape_947},{t:this.shape_946},{t:this.shape_945},{t:this.shape_944},{t:this.shape_943},{t:this.shape_942},{t:this.shape_941},{t:this.shape_940},{t:this.shape_939},{t:this.shape_938},{t:this.shape_937},{t:this.shape_936},{t:this.shape_935},{t:this.shape_934}]},575).to({state:[{t:this.shape_979},{t:this.shape_978},{t:this.shape_977},{t:this.shape_976},{t:this.shape_975},{t:this.shape_974},{t:this.shape_973},{t:this.shape_972},{t:this.shape_971},{t:this.shape_970},{t:this.shape_969},{t:this.shape_968},{t:this.shape_967},{t:this.shape_966},{t:this.shape_965},{t:this.shape_964},{t:this.shape_963},{t:this.shape_962},{t:this.shape_961},{t:this.shape_960},{t:this.shape_959},{t:this.shape_958},{t:this.shape_957}]},575).to({state:[{t:this.shape_864},{t:this.shape_863},{t:this.shape_862},{t:this.shape_861},{t:this.shape_860},{t:this.shape_859},{t:this.shape_858},{t:this.shape_857},{t:this.shape_856},{t:this.shape_855},{t:this.shape_854},{t:this.shape_853},{t:this.shape_852},{t:this.shape_851},{t:this.shape_850},{t:this.shape_849},{t:this.shape_848},{t:this.shape_847},{t:this.shape_846},{t:this.shape_845},{t:this.shape_844},{t:this.shape_843},{t:this.shape_842},{t:this.shape_841}]},607).to({state:[{t:this.shape_887},{t:this.shape_886},{t:this.shape_885},{t:this.shape_884},{t:this.shape_883},{t:this.shape_882},{t:this.shape_881},{t:this.shape_880},{t:this.shape_879},{t:this.shape_878},{t:this.shape_877},{t:this.shape_876},{t:this.shape_875},{t:this.shape_874},{t:this.shape_873},{t:this.shape_872},{t:this.shape_871},{t:this.shape_870},{t:this.shape_869},{t:this.shape_868},{t:this.shape_867},{t:this.shape_866},{t:this.shape_865,p:{y:468.9691,x:1121.9753}}]},604).to({state:[{t:this.shape_911},{t:this.shape_910},{t:this.shape_909},{t:this.shape_908},{t:this.shape_907},{t:this.shape_906},{t:this.shape_905},{t:this.shape_904},{t:this.shape_903},{t:this.shape_902},{t:this.shape_901},{t:this.shape_900},{t:this.shape_899},{t:this.shape_898},{t:this.shape_897},{t:this.shape_896},{t:this.shape_895},{t:this.shape_894},{t:this.shape_893},{t:this.shape_892},{t:this.shape_891},{t:this.shape_890},{t:this.shape_889},{t:this.shape_888}]},288).to({state:[{t:this.shape_933},{t:this.shape_932},{t:this.shape_931},{t:this.shape_930},{t:this.shape_929},{t:this.shape_928},{t:this.shape_927},{t:this.shape_926},{t:this.shape_925},{t:this.shape_924},{t:this.shape_923},{t:this.shape_922},{t:this.shape_921},{t:this.shape_920},{t:this.shape_919},{t:this.shape_918},{t:this.shape_917},{t:this.shape_916},{t:this.shape_915},{t:this.shape_914},{t:this.shape_913},{t:this.shape_912},{t:this.shape_865,p:{y:470.929,x:1121.9753}}]},288).to({state:[{t:this.shape_956},{t:this.shape_955},{t:this.shape_954},{t:this.shape_953},{t:this.shape_865,p:{y:471.0169,x:349.9527}},{t:this.shape_952},{t:this.shape_951},{t:this.shape_950},{t:this.shape_949},{t:this.shape_948},{t:this.shape_947},{t:this.shape_946},{t:this.shape_945},{t:this.shape_944},{t:this.shape_943},{t:this.shape_942},{t:this.shape_941},{t:this.shape_940},{t:this.shape_939},{t:this.shape_938},{t:this.shape_937},{t:this.shape_936},{t:this.shape_935},{t:this.shape_934}]},287).to({state:[{t:this.shape_979},{t:this.shape_978},{t:this.shape_977},{t:this.shape_976},{t:this.shape_975},{t:this.shape_974},{t:this.shape_973},{t:this.shape_972},{t:this.shape_971},{t:this.shape_970},{t:this.shape_969},{t:this.shape_968},{t:this.shape_967},{t:this.shape_966},{t:this.shape_965},{t:this.shape_964},{t:this.shape_963},{t:this.shape_962},{t:this.shape_961},{t:this.shape_960},{t:this.shape_959},{t:this.shape_958},{t:this.shape_957}]},289).wait(319));
 	// bg
+	this.instance_5 = new lib.play_bg("synched",0);
+	this.instance_5.setTransform(562.5,750.25,1,1,0,0,0,48.3,48.8);
 	this.shape_980 = new cjs.Shape();
 	this.shape_980.graphics.f("#FFFFFF").s().p("EAbGAwvQh5AAhWhWQhWhWAAh6QAAh6hWhWQhWhVh6AAMgjnAAAQh5AAhWBVQhWBWAAB6QAAB6hWBWQhWBWh6AAMg7mAAAQjsAAioioQininAAjsMAAAhPnQAAjsCnioQCoinDsAAMCs7AAAQDsAACoCnQCnCoAADsMAAABPnQAADsinCnQioCojsAAg");
 	this.shape_980.setTransform(639.325,457.45);
@@ -7901,7 +7934,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_983 = new cjs.Shape();
 	this.shape_983.graphics.f("#ED1C24").s().p("At7FeIAAiUIPPAAIAAonIPQAAIAAK7gAwjFeIAAq7ICoAAIAAInIAACUgAt7DKIAAonIPPAAIAAIngAt7DKgAt7ldg");
 	this.shape_983.setTransform(1097.175,248.575);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_983},{t:this.shape_982},{t:this.shape_981},{t:this.shape_980}]}).wait(7974));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_983},{t:this.shape_982},{t:this.shape_981},{t:this.shape_980},{t:this.instance_5}]}).wait(7974));
 	this._renderFirstFrame();
 }).prototype = p = new lib.AnMovieClip();
 p.nominalBounds = new cjs.Rectangle(640.5,226.6,640,573.4);
@@ -8049,7 +8082,7 @@ function handleComplete(evt,comp) {
 	var preloaderDiv = document.getElementById("_preload_div_");
 	preloaderDiv.style.display = 'none';
 	canvas.style.display = 'block';
-	exportRoot = new lib._4학년_4_68p_겨울이오면_20240309();
+	exportRoot = new lib._4학년_4_68p_겨울이오면_20240310();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
